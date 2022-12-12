@@ -74,7 +74,7 @@ public class EnemyDestroy : MonoBehaviour
     public void SpawnEnemy()
     {
         destroy = 0;
-        Speed = Speed + (-0.05f);
+        Speed = Speed + 0.05f;
         spriteRenderer.sprite = sprite1;
         gameObject.SetActive(true);
     }
